@@ -1,0 +1,78 @@
+							What is a Web Revolution ?
+
+
+		1. When was the first time you used internet ? - Year 2005 is the world average
+		2. What did you use internet for  ? - Surfing, games, emails, chatting etc.
+		3. Where did you use intern			
+		5. Mode of internet - Modem - Broadband - IE
+		6. ASP.net or JAVA
+
+			Thus developers had to create web contents as per above needs
+--------------------------------------------------------------------------
+		Today
+		2. What did you use internet for  ? Everything
+		3. Where do u use internet ? Everywhere
+		4. Devise ? Laptops - Mobile Phones - Tablets - Ipad etc...Watch, refrigerator, ac etc..
+		5. Mode of internet - Mobile Data
+		
+
+		6. User habbits has changed due to change in devise
+			eg. while watching video - change the phone from vertical to horizontal position
+			    image - zoom in - zoom out
+			    use Navigation while travelling 
+			    take a selfie - checking at places etc...
+
+		Mobile phones has different resolutions - size of devise 
+		Content should fit everywhere - 
+						Content should not overlap on small
+						pixcels should not burst
+
+
+		7. Browsers
+			Chrome, Mozilla Firefox, Safari, Edge
+
+				chrome for all platforms are different (Windows, Linux, Android, blackberry etc...)
+
+			ASP.net, Java, PHP etc.. are legacy as they are not able to serve the contents
+
+			This were all server side technologies
+		However, now we need client side frameworks
+			Thus, 
+			HTML got improved to HTML5
+			CSS got improved to CSS3
+			JS - has a major challange - is not Object Oriented
+				Thus W3C and ECMA - European Computer Manufacturing Association
+					introduced new version of Javascript - which is OOPS based - EcmaScript - ES6
+					but ES6 is difficult to write, thus Microsoft made it easy further with Typescript
+
+				Google took Typescript and made Angular for client centeric development
+	
+				Angular is a client centeric Web Development framework 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+		
+				
+

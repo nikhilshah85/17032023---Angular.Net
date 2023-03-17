@@ -1,0 +1,14 @@
+Set up
+
+Node
+https://nodejs.org/en
+
+node -v
+npm -v
+
+Angular 
+npm install @angualar/cli -g
+
+
+VS Code
+https://code.visualstudio.com/

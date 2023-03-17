@@ -1,0 +1,98 @@
+Things which Angular Developer is aware of 
+
+Components
+Pipes
+Services
+SPA - Single paged application 
+How to make REST APi - WebAPI calls ? (webapi / REST is replacement to 
+					webservices)
+
+MAKe CRUD calls
+
+.Net 
+How to create WebAPI Services on .Net Core platform
+with Entity Framework Core with SQL Server
+Perform CRUD operations
+
+Design Patterns
+ORM - Object Relational Mapping
+Component Based Development
+Dependency Injection (Singleton)
+
+Angular CLI - very easy and simple
+-----------------------------------------------------
+
+Name:
+Experience:
+Current Role and Project:
+Expectations:
+--------------------------------------------------------------------
+Pre-requisite
+1.	HTML,CSS, (Javascript not to be used)
+	OOPS 
+	SQL Server(RDBMS)
+
+2.	Setup
+	NodeJS along with NPM
+	VS Code
+	Visual Studio 2019 or above
+	SQL Server
+	Rights to execute commands which executes scripts
+	
+	Either have them installed on ur machine
+	Or
+	All of this softwares are installed on Cognizant Cloud Lab
+
+--------------------------------------------------------------
+Goals 
+1. Take up a new project on Angular (technically and Concuptually)
+2. Be a part of maintainance project
+
+--------------------------------------
+Expectations
+
+1. Be on time - complete task, projects, assignments on time
+2. Be interactive - ask questions, share views etc..
+
+----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
