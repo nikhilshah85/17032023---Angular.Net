@@ -1,0 +1,30 @@
+
+
+<h1> Welcome to Angular Development </h1>
+
+
+<h1> {{ greetMessage  }}</h1>
+<button (click)="greetUser()">Greet</button>
+
+<div class="appInfo">
+  <h3> App : {{ applicationName }} </h3>
+  <h3> Developer : {{ developerName  }}</h3>
+  <h3> Team Strenght : {{ teamSize }}</h3>
+  <h3> In Production ? : {{ isAppLive }}</h3>
+
+  <hr/>
+
+  <div class="productInfo">
+    <h3> Product Price : {{ productPrice }}</h3>
+    <h3> Discount(5%) : {{ (productPrice * discount) / 100}} </h3>
+    <h3> Tax(12%) : {{ (productPrice * 12) / 100 }} </h3>
+    <h3> Dilivery Charges : 100 </h3>
+    <h1 id="billAmount"> Bill Price : {{ productPrice  + 100 }} </h1>
+  
+  </div>
+
+
+
+
+
+</div>

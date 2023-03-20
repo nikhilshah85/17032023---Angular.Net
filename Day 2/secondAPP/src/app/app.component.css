@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+.productInfo{
+    background-color: aqua;
+}
+
+.appInfo{
+    background-color: orangered;
+}
+
+#billAmount{
+    color: lightcoral;
+}
