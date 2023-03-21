@@ -1,0 +1,14 @@
+Components
+	Html
+	Css
+	Typescript
+----
+		a. Data handling in angular
+			4 types of data we work with
+				a. Plain properties (primitive types - string, int, bool etc)
+				b. Primitive array (array of string, numbers
+				c. JSON objects
+				d. JSON Object array 
+		b. directives in angular (short hand JS + HTML)
+			They work on Above data
+				*ngIf, *ngFor, *ngSwitch etc...

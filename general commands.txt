@@ -1,0 +1,17 @@
+1. Node 
+2. npm install @angular\cli -g
+3. ng new firstapp
+	it will ask for routing - say N
+	use CSS for styling
+4. ng serve (this will run the app)
+5. open with VS Code
+
+6. In the new project, you will find a folder src - this is where development happens
+
+src folder has a default/master component - app
+
+Angular development is all about Component Development
+We get a default component - App - this is master component and other components are placed inside this component
+
+
+Component = HTML + CSS + TS (optionaly a test case file as well)
