@@ -1,0 +1,74 @@
+
+
+
+
+<h1> Welcome to Shopping APP </h1>
+<p> The best shopping site so far</p>
+<!-- 
+<div>
+  <h2> Application Name : {{ appName }}</h2>
+  <h2> Day No: {{ trainingDay}}</h2>
+  <h2> Professor : {{ trainer }}</h2>
+  <h2> Topic : {{ topic }}</h2>
+</div> -->
+
+<!-- 
+<ul>
+  <li *ngFor="let p of productList">{{ p }}</li>
+</ul> -->
+<!-- 
+<select>
+  <option *ngFor="let p of productList">{{ p }}</option>
+</select>
+
+<span *ngFor="let p of productList">
+  <input type="checkbox" value={{p}}/> {{ p }}
+</span>
+
+<div style="background-color: lime">
+  <h3> Order No : {{ orderDetails.orderId }} </h3>
+  <h3> Order Date : {{ orderDetails.orderDate }} </h3>
+  <h3> Customer   : {{ orderDetails.orderCustomer }} </h3>
+  <h3> Order Value: {{ orderDetails.orderValue }} </h3>
+  <h3> Location : {{ orderDetails.orderCity }} </h3>
+</div> -->
+
+
+<!-- <table border="1">
+  <tr *ngFor="let p of productDetails">
+    <td> {{ p.pId }} </td>
+    <td> {{ p.pName }} </td>
+    <td> {{ p.pCategory }} </td>
+    <td> {{ p.pPrice }} </td>
+    <td> {{ p.pIsInStock }} </td>
+  </tr>
+</table> -->
+
+
+<div *ngFor="let p of productDetails">
+  <h3> Product Id : {{ p.pId }} </h3>
+  <h3> Product Name : {{ p.pName }} </h3>
+  <h3> Product Category : {{ p.pCategory }} </h3>
+  <h3> Product Price : {{ p.pPrice }} </h3>
+  <h3> Product Is Available : {{ p.pIsInStock }} </h3>
+  <hr/>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
