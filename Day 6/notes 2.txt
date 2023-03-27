@@ -1,0 +1,21 @@
+Web Revolution - Angular 
+lab setup
+1. How to create angular applicaion
+2. Angular CLI - ng new nameofapp
+3. Component - .html., .css, .ts, .spec.ts
+4. Data with Components
+		primitive
+		Array
+		JSON Object
+		JSON Array
+---------------------------------------------------
+	Create out own components
+			App is the default components
+		but as a developer, we create more components
+		
+		-------------
+		Component is like a plugin, 
+			use it anywhere, 
+			remove anytime, 
+			reuse it in other applications
+
