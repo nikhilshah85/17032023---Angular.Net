@@ -1,0 +1,31 @@
+
+
+
+								Project Day :
+
+			1. Create a new Project - BankingSystem
+			2. Clear the default content from app.component.html
+			3. Create a the below properties in the .ts file
+					appLogo = "Give your bank Name" -- Needs to be display on top / center of page in H1 with some color and 																	background
+					appSlogan = "Best banking system in industry" --> display below h1
+					totalBranches = 50 (display on top right corner in p1)
+					
+					branchList = ['Goa','Mum'....] -- give 10 branches/cities here -- display this in drop down left side
+
+					branchContact ={
+						branchName:
+						branchLocation:
+						branchManger:
+						branchEmail:
+						branchPhone				
+					}
+
+					transactions = [
+					{tId:101, tType:'Debit',trfromAccNo:, trToAccNo:, trAmount}
+					{tId:101, tType:'Credit',trfromAccNo:, trToAccNo:, trAmount}
+					{tId:101, tType:'Online',trfromAccNo:, trToAccNo:, trAmount}
+					{tId:101, tType:'Walltet',trfromAccNo:, trToAccNo:, trAmount}
+					{tId:101, tType:'ATM',trfromAccNo:, trToAccNo:, trAmount}
+					{tId:101, tType:'Online',trfromAccNo:, trToAccNo:, trAmount}
+					]
+				display above in table

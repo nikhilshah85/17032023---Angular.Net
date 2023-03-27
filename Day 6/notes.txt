@@ -1,0 +1,72 @@
+in the same app
+
+we need new component - projectInfo
+
+
+	it will have array of json objects
+
+	projectDetails = [{},{},{},{}]
+	
+	projectiD, projectCost, projectName, projectClient, projectCost, projectTeamSize,projectIsLive
+
+	have a minimum of 10 project
+
+--------------- display the same in a table
+
+--------------------
+	display the component on app
+	(comment empdetails and client details)
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+			Tomorrow : Pipes in Angular 
+				Pipes are the only way to format the output
+
+				there are 2 types of pipes
+					a. inbuilt
+					b. custom (developed by users)
+
+------------------------------------------------------------------------------------------------------------------------
+
+		As a Angular Developer : if you know below concepts with Code - you are already an intermediate level
+
+			Components
+			Pipes
+			Services
+				(in-Built)
+				HttpClient (this is what gets you data from database) - most important service
+				Routing (create a SPA application) - Main reason we use Angular
+				Guards (security)
+				Custom service (application logic - heart of application)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
