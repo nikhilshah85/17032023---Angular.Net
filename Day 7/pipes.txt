@@ -1,0 +1,47 @@
+		in the same application create a new component
+
+	Component Name : AccountDetails
+	Add JSON Object Array : accountList[{},{},...]
+
+		accNo:'sav101', (sav, curr, pf etc... and then 3 digits No - type the values in any format, make mistakes)
+		accFirstName
+		accLastName
+		accBalance
+		accIsActive
+		accGender  (Male or female) - we will create a custom pipe on this later
+		
+
+		have minimum 10 accounts
+			display data in a table
+			accNo - all capital
+			accFirstName - titlecase
+			accLastName - uppercase
+			accBalance - INR with symbol
+			accIsActive - display a checkbox, make it disabled so user cannot edit it
+			accGender - as it is
+		
+
+		we want to add greetings/salutation for the firstName,
+				it should be Mr.Name if gender is Male, or Miss.Name if gender is Female
+
+
+
+		create a custom pipe
+			ng g p gendergreetings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

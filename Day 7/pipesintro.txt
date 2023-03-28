@@ -1,0 +1,17 @@
+Angular Developerment
+a. Components (.ts, .html, .css)
+b. Pipes (.ts) file - this are used to format the data in HTML
+
+		inBuilt pipes
+			uppercase
+			lowercase
+			titlecase
+			currency
+			date
+			json
+			decimal
+		
+
+
+
+

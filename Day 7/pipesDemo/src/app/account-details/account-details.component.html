@@ -1,0 +1,16 @@
+
+
+
+<h1> Account Details </h1>
+
+<table border="1">
+    <tr *ngFor="let a of accountList">
+        <td>{{ a.accNo | uppercase }}</td>
+        <td>{{ a.accFirstName | titlecase | gendergreetings : a.accGender}}</td>
+        <td>{{ a.accLastName |uppercase}}</td>
+        <td>{{ a.accBalance | currency : 'INR' }}</td>
+        <td><input type="checkbox" checked= "{{a.accIsActive}}" disabled/></td>
+        <td> {{ a.accGender }} </td> 
+
+    </tr>
+</table>
