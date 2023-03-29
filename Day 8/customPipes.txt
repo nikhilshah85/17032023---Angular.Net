@@ -1,0 +1,28 @@
+create a new pipe - calculate tax
+
+	we will have 5% tax on cold-drink
+	we will have 12% tax on Electronics
+	we will have 15% tax on any other category
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+			Last self paced example on Pipes
+
+		Create a component Employees
+			add employeeList = [ {},{},{}]
+
+				empNo
+				empName
+				empSalary
+				empDesignation
+				empCity (Mumbai, Pune, Chennai, Bangalore, Kolkatta)
+
+		add 10 values
+		
+			add a pipes, which will give bonus to employees
+
+				give bonus to employees based on city
+					Mumbai and Pune - 10% on salary
+					Chennai - 15%
+					Any other city - 12.5% bonus	

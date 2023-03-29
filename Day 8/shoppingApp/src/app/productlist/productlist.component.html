@@ -1,0 +1,19 @@
+<p>productlist works!</p>
+
+
+<table border="1" style="text-align:center">
+    <tr>
+        <td> Product Id </td>
+        <td> Product Name </td>
+        <td> Product Category </td>
+        <td> Product Price </td>
+        <td> Offer Price </td>
+    </tr>
+    <tr *ngFor="let p of productList">
+        <td> {{ p.pId }} </td>
+        <td> {{ p.pName }} </td>
+        <td> {{ p.pCategory }} </td>
+        <td> {{ p.pPrice }} </td>
+        <td> {{ p.pPrice | discount : p.pCategory}} </td>
+    </tr> 
+</table>

@@ -1,0 +1,19 @@
+We will have an App - shoppingApp
+
+we will have a component products
+	productList = [{},{},{},{}...]
+
+		pId
+		pName
+		pPrice
+		pCategory (Cold-Drink,Electonics,Accessories)
+		pIsInStock
+
+	add, 10 products to this
+
+	we will have a pipe call discount
+
+		which will return disocunt for the product
+			Cold-Drinks - 10%
+			Electronics - 20%
+			Accessories - 5%
