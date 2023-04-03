@@ -1,0 +1,14 @@
+cd src\app
+mkdir components
+mkdir pipes
+mkdir services
+
+cd services
+ng g s counter
+
+cd.. (to come outside the service folder)
+cd component (to go inside the component folder)
+
+
+ng g c comp1
+ng g c comp2

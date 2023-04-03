@@ -1,0 +1,59 @@
+.Net webAPI
+
+
+1. create a database and table using SSMS on sql server
+2. in visual studio - create new project - asp.net core webapi - c#
+3. in the project we need to add nuget packages to connect to database
+	solution explorer - right click - manage nuget package - browse - type EntityframeworkCore
+
+		Microsoft.EntityFrameworkCore.Tools
+		Microsoft.EntityFrameworkCore.Design
+		Microsoft.EntityFrameworkCore
+		Microsoft.EntityFrameworkCore.SqlServer
+
+4. Tools -> Nuget Package manager - Package manager console
+
+	Scaffold-DbContext "server=(localdb)\MSSQLLocalDB;database=shoppingDB;integrated security=true" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\EF
+
+5. Check the files under -> Models -> EF (1 file for every table, and 1 database file DbContext)
+
+6. Right click controller folder -> Add controller -> Api from left side, choose,
+		API controller with actions, using Entity Framework, click add
+	
+		in the next screen, Model class -> Choose table Name
+				    Data Context class -> DbContext, database name
+	This files got created in previous steps
+		name the controller - suffixed with controller
+
+	You will get a new file ProductsController.cs 
+
+7. line 16 - instantiate a new object of dbcontext
+	private readonly ShoppingDbContext _context = new ShoppingDbContext();
+
+	comment the controller - line 18 to 21
+
+
+Built the project, run the project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

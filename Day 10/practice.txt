@@ -1,0 +1,9 @@
+1. Create a new project :
+	try the same call once again 
+		Make notes, try to remember the steps
+
+
+2. in a new application,
+	make a call to post 
+	https://jsonplaceholder.typicode.com/posts
+

@@ -1,0 +1,14 @@
+<p>comments works!</p>
+
+
+<button (click)="_makeapicall.getCommentsData()">Show Comments</button>
+
+<table border="1">
+    <tr *ngFor="let c of _makeapicall.commentsData">
+        <td> {{ c.postId }} </td>
+        <td> {{ c.id }} </td>
+        <td> {{ c.name }} </td>
+        <td> {{ c.email }} </td>
+        <td> {{ c.body }} </td>
+    </tr>
+</table>

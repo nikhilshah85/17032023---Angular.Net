@@ -1,0 +1,19 @@
+Services
+	Custom Services
+	InBuilt Service
+		HttpClient Service
+			is used to make api calls
+
+
+
+		step 1: Create a new Service : anyName (makeapicalls is what we named)
+		steo 2 : import HttpClientModule in app.modult.ts file and add it in the imports section
+
+			import { HttpClientModule } from '@angular/common/http';
+
+			imports: [
+   					BrowserModule, HttpClientModule
+				  ],
+
+		step 3 : in the service class, use HttpClient service
+			
