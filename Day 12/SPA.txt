@@ -1,0 +1,12 @@
+Todays App
+
+SPA - Routing services - Single paged application
+
+	1 web site will be dilivered to clients devise and client will navigate between pages internally
+
+	and client will have make multiple request (round trips)
+
+	instead, trend this days are diliver everything at once to the client, and 
+	do not come back for contents (expect, refresh the data / make a api call)
+
+	Diliver a single page, made up of mulitple pages

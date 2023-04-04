@@ -1,0 +1,99 @@
+1. Create a new Angular Application with routing enabled - SPA
+2. clear all the contents from appl.component.html
+3. create a new folder component - src/app 
+4. Create below components in the component folder
+	home
+	about
+	contact
+	products
+	news
+	register
+	login
+
+	design this components
+
+5. configure routing in app-routing.module.ts
+
+	
+const routes: Routes = [
+  {path:'',component:HomeComponent },
+  {path:'home',component:HomeComponent },
+  {path:'about',component:AboutComponent },
+  {path:'contact',component:ContactComponent },
+  {path:'news',component:NewsComponent },
+  {path:'products',component:ProductsComponent },
+  {path:'register',component:RegisterComponent },
+  {path:'login',component:LoginComponent },
+];
+
+6. add links to app.component.html
+
+<h1> Shopping APP </h1>
+
+
+<table>
+    <a routerLink="home"> Home </a>
+    <a routerLink="about"> About </a>
+    <a routerLink="contact"> Contact </a>
+    <a routerLink="news"> News </a>
+    <a routerLink="products"> Products </a>
+    <a routerLink="register"> Register </a>
+    <a routerLink="login"> Login </a>    
+</table>
+
+<router-outlet></router-outlet>
+
+-------------
+
+Nested routing 
+
+
+8. in the products folder add a new folder productcategories
+	in this folder, add 4 components 
+
+	maleproducts
+	femaleproducts
+	kidsproducts
+	topsellingproducts
+
+	design the components
+
+9. update the app.routing.module.ts,
+		add, children [] attribut to products
+
+
+
+	 {path:'contact',component:ContactComponent },
+  {path:'news',component:NewsComponent },
+  {path:'products',component:ProductsComponent, children:[
+    {path:'female',component:FemaleproductsComponent },
+    {path:'male',component:MaleproductsComponent },
+    {path:'kids',component:KidsproductsComponent },
+    {path:'top',component:TopsellingproductsComponent },
+  ] },
+  {path:'register',component:RegisterComponent },
+  {path:'login',component:LoginComponent },
+
+
+10. add router link in products.component.html
+	
+
+<h1> Products </h1>
+
+
+<table>
+    <tr>
+        <td> <a routerLink="female"> Female </a> </td>
+        <td> <a routerLink="male"> Male </a> </td>
+        <td> <a routerLink="kids"> Kids  </a> </td>
+        <td> <a routerLink="top"> Top Selling </a> </td>
+    </tr>
+</table>
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
